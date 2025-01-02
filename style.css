@@ -1,0 +1,123 @@
+body{
+    font-family: "Roboto";
+    background-color: #1F2937;
+
+   /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; */
+}
+.header{
+    display: flex;
+background-color: #1F2937;
+}
+.header div{
+    display: flex;
+    flex:1 1 auto;
+   /* size: 24px;
+    align-items: center;
+    gap: 448px;
+    margin-top: 24px;
+    margin-bottom: 128px;*/
+}
+.header .logo{
+
+    justify-content: center;
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.header .links{
+    
+    align-items: center;
+    gap: 34px;
+    justify-content: center;
+    color: #F9FAF8;
+    font-size: 18px;
+
+}
+
+.one{
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    justify-content: center;
+    
+text-align:center;
+height:250px;
+
+}
+.one div{
+    flex: 1 1 auto;
+    
+}
+.one .pic{
+   height: 1px;
+   width: 1px;
+}
+.one .text .HeroMainText{
+    font-size: 48px;
+    color: #F9FAF8;
+font-weight: 900;
+}
+.one .text .HeroSeconderyText{
+    font-size: 18px;
+color: #E5E7EB;
+}
+.one .text .button{
+    color: #3882F6;
+
+}
+
+
+
+.two{
+    text-align: center;
+    background-color:#F9FAF8;
+}
+
+.two .images{
+    display: flex;
+    justify-content: space-evenly;
+}
+.two .imagesInfo{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.three{
+    display: block;
+    padding: 90px;
+    text-align: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.four{
+    background-color:#3882F6;
+display: flex;
+margin: 100px;
+padding: 50px;
+
+color: #F9FAF8;
+
+}
+
+.four div{
+    display: flex;
+    flex: 1 1 auto;
+    
+}
+.four .Button1{
+    justify-content: flex-end;
+    border-color: #F9FAF8;
+    background-color: #3882F6;
+    gap: 12px;
+}
+
+.footer{
+    background-color: #1F2937;
+    color: #F9FAF8;
+text-align: center;
+}
